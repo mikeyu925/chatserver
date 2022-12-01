@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/ywh/projects/cpp/chatserver/build/src/server",
+  "command": "/usr/bin/g++   -I/home/ywh/projects/cpp/chatserver/include -I/home/ywh/projects/cpp/chatserver/include/server -I/home/ywh/projects/cpp/chatserver/include/server/db -I/home/ywh/projects/cpp/chatserver/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/chatserver.cpp.o -c /home/ywh/projects/cpp/chatserver/src/server/chatserver.cpp",
+  "file": "/home/ywh/projects/cpp/chatserver/src/server/chatserver.cpp"
+},
+{
+  "directory": "/home/ywh/projects/cpp/chatserver/build/src/server",
+  "command": "/usr/bin/g++   -I/home/ywh/projects/cpp/chatserver/include -I/home/ywh/projects/cpp/chatserver/include/server -I/home/ywh/projects/cpp/chatserver/include/server/db -I/home/ywh/projects/cpp/chatserver/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/chatservice.cpp.o -c /home/ywh/projects/cpp/chatserver/src/server/chatservice.cpp",
+  "file": "/home/ywh/projects/cpp/chatserver/src/server/chatservice.cpp"
+},
+{
+  "directory": "/home/ywh/projects/cpp/chatserver/build/src/server",
+  "command": "/usr/bin/g++   -I/home/ywh/projects/cpp/chatserver/include -I/home/ywh/projects/cpp/chatserver/include/server -I/home/ywh/projects/cpp/chatserver/include/server/db -I/home/ywh/projects/cpp/chatserver/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/main.cpp.o -c /home/ywh/projects/cpp/chatserver/src/server/main.cpp",
+  "file": "/home/ywh/projects/cpp/chatserver/src/server/main.cpp"
+}
+]
