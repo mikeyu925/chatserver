@@ -179,6 +179,33 @@ chatservice.cpp.s:
 	cd /home/ywh/projects/cpp/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/chatservice.cpp.s
 .PHONY : chatservice.cpp.s
 
+db/dbmysql.o: db/dbmysql.cpp.o
+
+.PHONY : db/dbmysql.o
+
+# target to build an object file
+db/dbmysql.cpp.o:
+	cd /home/ywh/projects/cpp/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/db/dbmysql.cpp.o
+.PHONY : db/dbmysql.cpp.o
+
+db/dbmysql.i: db/dbmysql.cpp.i
+
+.PHONY : db/dbmysql.i
+
+# target to preprocess a source file
+db/dbmysql.cpp.i:
+	cd /home/ywh/projects/cpp/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/db/dbmysql.cpp.i
+.PHONY : db/dbmysql.cpp.i
+
+db/dbmysql.s: db/dbmysql.cpp.s
+
+.PHONY : db/dbmysql.s
+
+# target to generate assembly for a file
+db/dbmysql.cpp.s:
+	cd /home/ywh/projects/cpp/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/db/dbmysql.cpp.s
+.PHONY : db/dbmysql.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -206,6 +233,114 @@ main.cpp.s:
 	cd /home/ywh/projects/cpp/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+model/friendmodel.o: model/friendmodel.cpp.o
+
+.PHONY : model/friendmodel.o
+
+# target to build an object file
+model/friendmodel.cpp.o:
+	cd /home/ywh/projects/cpp/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/friendmodel.cpp.o
+.PHONY : model/friendmodel.cpp.o
+
+model/friendmodel.i: model/friendmodel.cpp.i
+
+.PHONY : model/friendmodel.i
+
+# target to preprocess a source file
+model/friendmodel.cpp.i:
+	cd /home/ywh/projects/cpp/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/friendmodel.cpp.i
+.PHONY : model/friendmodel.cpp.i
+
+model/friendmodel.s: model/friendmodel.cpp.s
+
+.PHONY : model/friendmodel.s
+
+# target to generate assembly for a file
+model/friendmodel.cpp.s:
+	cd /home/ywh/projects/cpp/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/friendmodel.cpp.s
+.PHONY : model/friendmodel.cpp.s
+
+model/groupmodel.o: model/groupmodel.cpp.o
+
+.PHONY : model/groupmodel.o
+
+# target to build an object file
+model/groupmodel.cpp.o:
+	cd /home/ywh/projects/cpp/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/groupmodel.cpp.o
+.PHONY : model/groupmodel.cpp.o
+
+model/groupmodel.i: model/groupmodel.cpp.i
+
+.PHONY : model/groupmodel.i
+
+# target to preprocess a source file
+model/groupmodel.cpp.i:
+	cd /home/ywh/projects/cpp/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/groupmodel.cpp.i
+.PHONY : model/groupmodel.cpp.i
+
+model/groupmodel.s: model/groupmodel.cpp.s
+
+.PHONY : model/groupmodel.s
+
+# target to generate assembly for a file
+model/groupmodel.cpp.s:
+	cd /home/ywh/projects/cpp/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/groupmodel.cpp.s
+.PHONY : model/groupmodel.cpp.s
+
+model/offlinemsgmodel.o: model/offlinemsgmodel.cpp.o
+
+.PHONY : model/offlinemsgmodel.o
+
+# target to build an object file
+model/offlinemsgmodel.cpp.o:
+	cd /home/ywh/projects/cpp/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/offlinemsgmodel.cpp.o
+.PHONY : model/offlinemsgmodel.cpp.o
+
+model/offlinemsgmodel.i: model/offlinemsgmodel.cpp.i
+
+.PHONY : model/offlinemsgmodel.i
+
+# target to preprocess a source file
+model/offlinemsgmodel.cpp.i:
+	cd /home/ywh/projects/cpp/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/offlinemsgmodel.cpp.i
+.PHONY : model/offlinemsgmodel.cpp.i
+
+model/offlinemsgmodel.s: model/offlinemsgmodel.cpp.s
+
+.PHONY : model/offlinemsgmodel.s
+
+# target to generate assembly for a file
+model/offlinemsgmodel.cpp.s:
+	cd /home/ywh/projects/cpp/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/offlinemsgmodel.cpp.s
+.PHONY : model/offlinemsgmodel.cpp.s
+
+model/usermodel.o: model/usermodel.cpp.o
+
+.PHONY : model/usermodel.o
+
+# target to build an object file
+model/usermodel.cpp.o:
+	cd /home/ywh/projects/cpp/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/usermodel.cpp.o
+.PHONY : model/usermodel.cpp.o
+
+model/usermodel.i: model/usermodel.cpp.i
+
+.PHONY : model/usermodel.i
+
+# target to preprocess a source file
+model/usermodel.cpp.i:
+	cd /home/ywh/projects/cpp/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/usermodel.cpp.i
+.PHONY : model/usermodel.cpp.i
+
+model/usermodel.s: model/usermodel.cpp.s
+
+.PHONY : model/usermodel.s
+
+# target to generate assembly for a file
+model/usermodel.cpp.s:
+	cd /home/ywh/projects/cpp/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/usermodel.cpp.s
+.PHONY : model/usermodel.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -221,9 +356,24 @@ help:
 	@echo "... chatservice.o"
 	@echo "... chatservice.i"
 	@echo "... chatservice.s"
+	@echo "... db/dbmysql.o"
+	@echo "... db/dbmysql.i"
+	@echo "... db/dbmysql.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... model/friendmodel.o"
+	@echo "... model/friendmodel.i"
+	@echo "... model/friendmodel.s"
+	@echo "... model/groupmodel.o"
+	@echo "... model/groupmodel.i"
+	@echo "... model/groupmodel.s"
+	@echo "... model/offlinemsgmodel.o"
+	@echo "... model/offlinemsgmodel.i"
+	@echo "... model/offlinemsgmodel.s"
+	@echo "... model/usermodel.o"
+	@echo "... model/usermodel.i"
+	@echo "... model/usermodel.s"
 .PHONY : help
 
 

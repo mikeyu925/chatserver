@@ -36,11 +36,12 @@ void ChatServer::onConnection(const TcpConnectionPtr & conn)
     // 客户端断开连接
     if(!conn->connected()){
         
+        ChatService::instance()->clientCloseException(conn);
         conn->shutdown();
     }
 }
 
-// 上报读写事件相关信息的回调函数
+// 上报读写事件相关信息的回调函数 —— 在多线程环境中运行的，要注意线程安全
 void ChatServer::onMessage(const TcpConnectionPtr & conn,
                             Buffer * buffer,
                             Timestamp time)
